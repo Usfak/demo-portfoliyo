@@ -152,3 +152,51 @@ ul.social-icons {
     background-color: var(--primary);
     color: #fff;
 }
+
+/* about me */
+.about-section{
+    background-color: #22282f;
+    color: #fff;
+    padding: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-section img {
+    width: 200px;
+    height: 250px;
+    border-radius: 10%;
+    border: 3px solid var(--primary);
+    box-shadow: 3px 5px 40px #03506e;
+    
+
+}
+.about-section--desc{
+    margin-left: 50px;
+}
+
+.about-section--desc h4{
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.about-section--desc ul{
+    list-style: none;
+    margin-top: 10px;
+}
+
+.about-section--desc li{
+    margin-bottom: 8px;
+    color: gray;
+}
+.about-section--desc li a{
+     text-decoration: none;
+     color: gray;
+    }
+.about-section--desc li a:hover{
+     color: var(--primary-hover);
+    }
+
+.about-section--desc li strong{
+    color: #fff;
+}
