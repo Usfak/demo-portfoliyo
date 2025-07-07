@@ -1,0 +1,154 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --primary: #12bdff;
+    --primary-hover: #0c8ec2;
+    --dark-primary:#1b1f24;
+
+}
+
+ * {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}  
+
+body {
+   font-family: 'Nunito sans', sans-serif ;
+}
+
+header { 
+
+    background-color: var(--dark-primary);
+    padding: 20px; 
+    color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+header ul {
+    display: flex;
+    list-style: none;  
+}
+
+header ul li {
+    margin-right: 20px;
+
+}
+
+header ul li a {
+   color: #fff;
+   text-decoration: none;
+
+}
+
+.btn-dark {
+    padding: 10px 20px;
+    font-weight: dark;
+    background-color: var(--dark-primary);
+    border: 1px solid var( --primary);
+    color: var(--primary);
+    border-radius: 5px;
+}
+
+.btn-dark a:hover {
+    color: var(--primary);
+}
+
+header button:hover{
+    cursor: pointer;
+    background-color: var(--primary);
+    color: #fff;
+}
+
+header .logo{
+     color: var(--primary);
+     font-weight: bold;
+     letter-spacing: 2px;
+}
+
+header span .logo {
+    text-decoration: none;
+}
+
+/* section hero home page */
+section.hero-section{
+    background-color: var(--dark-primary);
+    color: #fff;
+     display: flex;
+    align-items: center;
+    padding: 20px 120px 0 240px;
+}
+
+.hero- section__title{
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero-section__desc{
+    color: #c4c4c4;
+}
+
+.social-icons{
+    margin: 20px 0;
+}
+
+.social-icons li{
+    margin-right: 15px;
+}
+
+ul.social-icons {
+    list-style: none;
+    display: flex;
+}
+
+.social-icons li  a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.social-icons li a i.fa-facebook:hover {
+    color: #1877f2;
+}
+.social-icons li a i.fa-linkedin:hover {
+    color: #0072b1;
+}
+.social-icons li a i.fa-instagram:hover {
+    color: #feda75;
+}
+.social-icons li a i.fa-twitter:hover {
+    color: #00acee;
+}
+
+/* buttons */
+.btn {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid var(--primary);
+    cursor: pointer;
+}
+.btn.btn-primary{
+    background-color: var(--primary);
+    font-weight: 600;
+    color: #fff;
+}
+.btn.btn-primary:hover{
+    background-color: var(--primary-hover); 
+}
+
+.btn.btn-dark {
+    padding: 10px 20px;
+    font-weight: dark;
+    background-color: var(--dark-primary);
+    border: 1px solid var( --primary);
+    color: var(--primary);
+    border-radius: 5px;
+}
+
+.btn.btn-dark:hover {
+    background-color: var(--primary);
+    color: #fff;
+}
